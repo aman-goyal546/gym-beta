@@ -1,0 +1,76 @@
+body {
+    /* box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: url('img/adult3.jpg');
+    width: 1260px;
+    height: 720px;
+
+
+
+}
+
+.navbar {
+    border: 1px solid transparent;
+    position: sticky;
+    top: 12px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 5px;
+    margin: 7px;
+
+}
+
+.navbar li a {
+    color: bisque;
+
+    text-decoration: none;
+}
+
+.container2 {
+
+    height: 720px;
+    width: 1260px;
+}
+
+.motto {
+    color: whitesmoke;
+    width: 340px;
+    height: 10px;
+    
+    font-size: 15px;
+    margin: 100px 313px;
+    text-align: right;
+
+
+}
+
+
+.button {
+    display: block;
+    color: bisque;
+    width: 50px;
+    margin: -94px 667px;
+    font-size: 15px;
+    background-color: transparent;
+    color: whitesmoke;
+    
+
+}
+
+.search {
+    float: right;
+    padding: 9px 40px;
+
+}
+
+.search input {
+    border-radius: 20px;
+    padding-left: 5px;
+}
